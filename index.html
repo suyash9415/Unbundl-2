@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Choco Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Choco Shop</h1>
+    </header>
+
+    <div class="container">
+        <div class="chocolate-options">
+            <div class="chocolate-option">
+                <img src="images/Dark chocolate.jpg" alt="Dark Chocolate">
+                <label>
+                    <span class="chocolate-price">$2.50</span>
+                    <input type="checkbox" data-name="Dark Chocolate" data-price="2.50">
+                    Dark Chocolate
+                </label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/milk chocolate.jpg" alt="Milk Chocolate">
+                <label>
+                    <span class="chocolate-price">$2.00</span><input type="checkbox" data-name="Milk Chocolate" data-price="2.00"> Milk Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/white chocolate.jpg" alt="White Chocolate">
+                <label><span class="chocolate-price">$2.20</span><input type="checkbox" data-name="White Chocolate" data-price="2.20"> White Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/hazelnut chocolate.jpg" alt="Hazelnut Chocolate">
+                <label><span class="chocolate-price">$2.80</span><input type="checkbox" data-name="Hazelnut Chocolate" data-price="2.80"> Hazelnut Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/caramel chocolate.jpg" alt="Caramel Chocolate">
+                <label><span class="chocolate-price">$3.00</span><input type="checkbox" data-name="Caramel Chocolate" data-price="3.00"> Caramel Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/almond chocolate.jpg" alt="Almond Chocolate">
+                <label><span class="chocolate-price">$2.70</span><input type="checkbox" data-name="Almond Chocolate" data-price="2.70"> Almond Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/orange chocolate.jpg" alt="Orange Chocolate">
+                <label><span class="chocolate-price">$2.90</span><input type="checkbox" data-name="Orange Chocolate" data-price="2.90"> Orange Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/raspberry chocolate.jpg" alt="Raspberry Chocolate">
+                <label><span class="chocolate-price">$3.20</span><input type="checkbox" data-name="Raspberry Chocolate" data-price="3.20"> Raspberry Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/coconut chocolate.jpg" alt="Coconut Chocolate">
+                <label><span class="chocolate-price">$3.10</span><input type="checkbox" data-name="Coconut Chocolate" data-price="3.10"> Coconut Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/mint chocolate.jpg" alt="Mint Chocolate">
+                <label><span class="chocolate-price">$3.50</span><input type="checkbox" data-name="Mint Chocolate" data-price="3.50"> Mint Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/cherry chocolate.jpg" alt="Cherry Chocolate">
+                <label><span class="chocolate-price">$3.30</span><input type="checkbox" data-name="Cherry Chocolate" data-price="3.30"> Cherry Chocolate</label>
+            </div>
+            <div class="chocolate-option">
+                <img src="images/peanut butter chocolate.jpg" alt="Peanut Butter Chocolate">
+                <label><span class="chocolate-price">$3.40</span><input type="checkbox" data-name="Peanut Butter Chocolate" data-price="3.40"> Peanut Butter Chocolate</label>
+            </div>
+        </div>
+
+        <div class="custom-pack">
+            <h2>Your Custom Pack</h2>
+            <ul id="selected-items"></ul>
+            <p>Total Price: $<span id="total-price">0.00</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
